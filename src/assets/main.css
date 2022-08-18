@@ -1,0 +1,68 @@
+/* @import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
+
+
+.formulate-input[data-classification="button"] button{
+  background-color: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  font-size: 1rem;
+  letter-spacing: 10px;
+  appearance: none;
+  border-radius: 4px;
+  width: 12rem;}
+
+  .formulate-input[data-classification="button"] button:focus ,  .formulate-input[data-classification="button"] button:active,   .formulate-input[data-classification="button"] button:hover{
+    background-color: #fa1c6f;
+}
+.formulate-input[data-classification="text"] input {
+  border: none;
+border-bottom: 2.5px #fa1c6f solid;
+background-color: #ffffff94;
+font-size: 1.2rem;
+
+}
+
+.formulate-input[data-classification="text"] input:focus ,  .formulate-input[data-classification="text"] input:active,   .formulate-input[data-classification="text"] input:hover{
+background-color: #ffffff94;
+border: none;
+border-bottom: 4px #fa1c6f solid;
+outline:none;
+font-weight: bold;
+}
