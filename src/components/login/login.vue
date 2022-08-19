@@ -1,5 +1,6 @@
 <template>
-<div class="row">
+<div class="container">
+  <div class="row">
   <div class="col-6">
        <FormulateForm v-model="formValues" @submit="handleSubmit">
     <FormulateInput name="name" label="Name" validation="required" />
@@ -25,7 +26,9 @@
 
   <div class="col-6"></div>
 </div>
+  </div>
 
+</div>
 </template>
 
 <script>

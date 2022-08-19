@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <login />
-  </div>
+    <!-- <login /> -->
+     <DashBoard />
+
+ </div>
 </template>
 
 
@@ -9,11 +11,13 @@
 <script>
 
 import login from './components/login/login.vue';
+import DashBoard from './components/dashboard/DashBoard.vue';
 export default {
   name: 'App',
   components: {
-    login,  
-  }
+    login,
+    DashBoard
+}
 }
 </script>
 

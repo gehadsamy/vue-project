@@ -5,7 +5,7 @@ import router from "./router";
 import "./assets/snow.min.css";
 
 import "./assets/main.css";
-import VueFormulate from '@braid/vue-formulate'
+import VueFormulate from '@braid/vue-formulate';
 
 Vue.use(VueFormulate)
 new Vue({
