@@ -35,7 +35,19 @@ a,
 } */
 
 
-.formulate-input[data-classification="button"] button{
+/* @import "./base.css"; */
+body {
+  font-size: 16px;
+  color: black;
+}
+.modal {
+  font-size: 1.1rem;
+  color: black !important;
+}
+.modal_width {
+  max-width: 70vh;
+}
+.all_buttons , .all_buttons{
   background-color: #ec5990;
   color: white;
   text-transform: uppercase;
@@ -48,7 +60,10 @@ a,
   border-radius: 4px;
   width: 12rem;}
 
-  .formulate-input[data-classification="button"] button:focus ,  .formulate-input[data-classification="button"] button:active,   .formulate-input[data-classification="button"] button:hover{
+  .formulate-input[data-classification="button"] button:focus ,  .formulate-input[data-classification="button"] button:active,   .formulate-input[data-classification="button"] button:hover
+  
+  , .all_buttons:focus ,  .all_buttons:active,   .all_buttons:hover
+  {
     background-color: #fa1c6f;
 }
 .formulate-input[data-classification="text"] input {
@@ -70,4 +85,22 @@ font-weight: bold;
 .formulate-input .formulate-input-element {
   max-width: 100%;
   margin-bottom: 0.1em;
+}
+.edit_btn{
+    background-color: #9c27b0!important;
+
+}
+.edit_icon , .user_icon{
+color: white !important;
+}
+.user_btn {
+  background-color: #00bcd4!important;
+
+}
+th {
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+tbody tr , tbody td {
+  font-size: .9rem !important;
 }

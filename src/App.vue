@@ -2,6 +2,8 @@
   <div id="app">
     <!-- <login /> -->
      <DashBoard />
+         <!-- <Posts /> -->
+      <!-- <NavBar /> -->
 
  </div>
 </template>
@@ -10,15 +12,23 @@
 
 <script>
 
-import login from './components/login/login.vue';
+// import login from './components/login/login.vue';
 import DashBoard from './components/dashboard/DashBoard.vue';
+// import NavBar from './components/NavBar/NavBar.vue';
+
+import 'babel-polyfill';
+// import Posts from './components/posts/posts.vue';
 export default {
   name: 'App',
   components: {
-    login,
-    DashBoard
+    // login,
+    DashBoard,
+    // Posts
 }
+
 }
+
+
 </script>
 
 
